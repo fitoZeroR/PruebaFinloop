@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_registry">
+
+    <fragment
+        android:id="@+id/nav_registry"
+        android:name="com.prueba.pruebafinloop.ui.registry.RegistryFragment"
+        tools:layout="@layout/fragment_registry" >
+        <action
+            android:id="@+id/action_nav_registry_to_users_list"
+            app:destination="@id/usersListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/usersListFragment"
+        android:name="com.prueba.pruebafinloop.ui.usersList.UsersListFragment"
+        android:label="UsersListFragment"
+        tools:layout="@layout/fragment_users_list">
+        <action
+            android:id="@+id/action_nav_users_list_to_user_detail"
+            app:destination="@id/userDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="com.prueba.pruebafinloop.ui.detailUser.DetailUserFragment"
+        android:label="DetailUserFragment"
+        tools:layout="@layout/fragment_detail_user">
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </fragment>
+</navigation>

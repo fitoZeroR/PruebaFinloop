@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Prueba Finloop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txt_registry">Registro</string>
+    <string name="txt_session_init">Inicio de sesión</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_users">Usuarios</string>
+    <string name="prb_cargando">Cargando</string>
+    <string name="msg_no_campos_vacios">No deben existir campos vacíos.</string>
+</resources>
