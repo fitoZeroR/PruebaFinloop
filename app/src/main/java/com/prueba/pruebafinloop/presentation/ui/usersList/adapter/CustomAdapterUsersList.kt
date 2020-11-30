@@ -1,11 +1,11 @@
-package com.prueba.pruebafinloop.ui.usersList.adapter
+package com.prueba.pruebafinloop.presentation.ui.usersList.adapter
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.prueba.pruebafinloop.R
 import com.prueba.pruebafinloop.domain.model.User
-import com.prueba.pruebafinloop.utils.inflate
+import com.prueba.pruebafinloop.presentation.utils.inflate
 import kotlinx.android.synthetic.main.row_user.view.*
 
 class CustomAdapterUsersList(

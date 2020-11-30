@@ -1,4 +1,4 @@
-package com.prueba.pruebafinloop.ui.detailUser
+package com.prueba.pruebafinloop.presentation.ui.detailUser
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
