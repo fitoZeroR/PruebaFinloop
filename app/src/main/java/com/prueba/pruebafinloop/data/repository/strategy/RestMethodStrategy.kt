@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.liveData
 import androidx.lifecycle.map
-import com.prueba.pruebafinloop.data.remote.api.Resource
+import com.prueba.pruebafinloop.presentation.framework.network.api.Resource
 import kotlinx.coroutines.Dispatchers
 
 fun <T, A> resultLiveDataRest(networkCall: suspend () -> Resource<A>,

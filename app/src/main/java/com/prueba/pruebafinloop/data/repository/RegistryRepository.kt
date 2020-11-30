@@ -1,13 +1,13 @@
 package com.prueba.pruebafinloop.data.repository
 
 import android.content.SharedPreferences
-import com.prueba.pruebafinloop.data.remote.api.RemoteDataSource
+import com.prueba.pruebafinloop.presentation.framework.network.api.RemoteDataSource
 import com.prueba.pruebafinloop.data.remote.model.request.LoginRequest
 import com.prueba.pruebafinloop.data.remote.model.request.RegistryRequest
 import com.prueba.pruebafinloop.data.repository.strategy.resultLiveDataRest
 import com.prueba.pruebafinloop.data.repository.strategy.returnLiveDataMapper
 import com.prueba.pruebafinloop.domain.model.Credential
-import com.prueba.pruebafinloop.utils.Constants
+import com.prueba.pruebafinloop.presentation.utils.Constants
 import javax.inject.Inject
 import javax.inject.Singleton
 

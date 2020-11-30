@@ -1,8 +1,8 @@
 package com.prueba.pruebafinloop
 
 import android.app.Application
-import com.prueba.pruebafinloop.di.component.AppComponent
-import com.prueba.pruebafinloop.di.component.DaggerAppComponent
+import com.prueba.pruebafinloop.presentation.di.component.AppComponent
+import com.prueba.pruebafinloop.presentation.di.component.DaggerAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector

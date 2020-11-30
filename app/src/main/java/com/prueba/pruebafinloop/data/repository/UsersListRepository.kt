@@ -1,6 +1,6 @@
 package com.prueba.pruebafinloop.data.repository
 
-import com.prueba.pruebafinloop.data.remote.api.RemoteDataSource
+import com.prueba.pruebafinloop.presentation.framework.network.api.RemoteDataSource
 import com.prueba.pruebafinloop.data.repository.strategy.resultLiveDataRest
 import com.prueba.pruebafinloop.data.repository.strategy.returnLiveDataMapper
 import com.prueba.pruebafinloop.domain.model.User
